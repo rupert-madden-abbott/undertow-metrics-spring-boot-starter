@@ -4,26 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>dev.rjma</groupId>
-    <artifactId>undertow-micrometer-parent</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
-    <name>Undertow Micrometer Parent</name>
+    <parent>
+        <groupId>dev.rjma</groupId>
+        <artifactId>undertow-micrometer-parent</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
 
-    <modules>
-        <module>undertow-micrometer</module>
-        <module>undertow-micrometer-spring-boot-starter</module>
-    </modules>
-
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-
-        <!-- This is the minimum supported by Micrometer -->
-        <java.version>8</java.version>
-
-        <!-- Plugins -->
-        <maven-complier-plugin.version>3.14.0</maven-complier-plugin.version>
-    </properties>
+    <artifactId>undertow-micrometer</artifactId>
+    <name>Undertow Micrometer</name>
 
     <build>
         <pluginManagement>
