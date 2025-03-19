@@ -4,10 +4,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>dev.rjma</groupId>
-    <artifactId>undertow-metrics-spring-boot-starter</artifactId>
+    <artifactId>undertow-micrometer-spring-boot-starter</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
-    <name>Undertow Metrics Spring Boot Starter</name>
+    <name>Undertow Micrometer Spring Boot Starter</name>
 
     <properties>
         <java.version>17</java.version>
