@@ -1,4 +1,4 @@
-package dev.rjma.undertow.metrics.spring;
+package dev.rjma.undertow.micrometer.spring;
 
 import org.springframework.boot.autoconfigure.AutoConfiguration;
 
